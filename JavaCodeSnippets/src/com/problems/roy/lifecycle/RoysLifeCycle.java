@@ -43,7 +43,7 @@ public class RoysLifeCycle {
 			}
 			largeDay = largeDay(largeDay, count);
 			if (i == 0) {
-				maxStreak = streak;
+				maxStreak = largeDay(maxStreak, streak);
 			}
 			if (flag) {
 				maxStreak = largeDay(maxStreak, streak);
@@ -51,6 +51,7 @@ public class RoysLifeCycle {
 			}
 			i++;
 			largeDay = largeDay(largeDay, count);
+			maxStreak = largeDay(maxStreak, streak);
 
 		}
 		System.out.println(largeDay + " " + maxStreak);
