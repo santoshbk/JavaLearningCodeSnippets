@@ -12,7 +12,7 @@ class TestClass {
         int N = Integer.parseInt(line1);*/
         
         for (int i = 0; i < 1; i++) {
-        	String line = "correct";
+        	String line = "hackerearth";
             char arr[] = line.toCharArray();
             int cipher[] = new int[arr.length]; 
             for(int j=0;j<arr.length-1;j++){
